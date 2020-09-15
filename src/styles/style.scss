@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import "./form";
+@import "./card";
+
+@media screen and (max-width: 840px) {
+  body {
+    font-size: 90%;
+  }
+  .card-content {
+    margin-bottom: 4rem;
+    height: 95%;
+    width: 90%;
+  }
+
+  
+}
+
+
